@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>VirtualCarts</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+			integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="top-bar">
+			<div class="top-left">
+				<i class="fa-solid fa-phone"></i>
+				Customer Support: +91 98765 43210
+			</div>
+
+			<div class="top-center">
+				<i class="fa-solid fa-truck"></i>
+				Free Delivery on Orders Above Rs.999
+			</div>
+
+			<div class="top-right">
+				<i class="fa-solid fa-globe"></i>
+				English |
+				<i class="fa-solid fa-map-pin"></i>
+				India
+			</div>
+		</div>
+
+		<header>
+			<div class="head-first">
+				<div class="logo-img">
+					<img src="./assets/logo.jpg" alt="site-logo" />
+				</div>
+				<div class="logo-name"><span id="logo-virtual">virtual</span>carts</div>
+			</div>
+			<div class="head-second">
+				<div class="categories">
+					<span class="cat-title">
+						Categories <i class="fa-solid fa-chevron-down"></i>
+					</span>
+
+					<div class="mega-menu">
+						<div class="menu-column">
+							<h4>Fashion</h4>
+							<a href="product-fashion.html">
+								<img src="./assets/fashion-bags.png" alt="Bags" />
+								Bags
+							</a>
+							<a href="product-fashion.html">
+								<img src="./assets/fashion-footwear.png" alt="Footwear" />
+								Footwear
+							</a>
+						</div>
+
+						<div class="menu-column">
+							<h4>Electronics</h4>
+							<a href="product-electronics.html">
+								<img src="./assets/elec-laptop.png" alt="Laptop" />
+								Laptops
+							</a>
+							<a href="product-electronics.html">
+								<img src="./assets/elec-headphones.png" alt="Headphones" />
+								Audio Devices
+							</a>
+							<a href="product-electronics.html">
+								<img src="./assets/elec-powerbank.png" alt="Powerbank" />
+								Power Banks
+							</a>
+						</div>
+
+						<div class="menu-column">
+							<h4>Travel</h4>
+							<a href="product-travel.html">
+								<img src="./assets/travel-bag.png" alt="Travel Bags" />
+								Travel Bags
+							</a>
+							<a href="product-travel.html">
+								<img
+									src="./assets/travel-luggages.png"
+									alt="Luggage & Suitcases"
+								/>
+								Luggage & Suitcases
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="collections">
+					<a href="#shop-categories"
+						><i class="fa-solid fa-layer-group"></i>Collections</a
+					>
+				</div>
+				<div class="best-sellers">
+					<a href="#shop-categories"
+						><i class="fa-solid fa-star"></i> Best Sellers</a
+					>
+				</div>
+				<div class="deals">
+					<p><i class="fa-solid fa-tags"></i>Deals</p>
+				</div>
+				<div class="track-order">
+					<p><i class="fa-solid fa-location-dot"></i>Track Order</p>
+				</div>
+				<div class="search-bar">
+					<input type="text" id="search" placeholder="Search Product" />
+					<div class="search-icon">
+						<label for="search">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="head-third">
+				<div class="account">
+					<div class="account-icon">
+						<a href="account.html"
+							><i class="fa-regular fa-user" style="color: black"></i
+						></a>
+					</div>
+					<div class="account-info">
+						<a href="account.html">Account</a>
+					</div>
+				</div>
+				<div class="cart">
+					<div class="cart-icon">
+						<a href="cart.html"
+							><i class="fa-solid fa-cart-plus" style="color: black"></i
+						></a>
+					</div>
+					<div class="cart-info"><a href="cart.html">Cart</a></div>
+				</div>
+			</div>
+		</header>
+		<div class="main-section">
+			<div class="hero-content">
+				<h1>Everything You Need, In One Place</h1>
+				<p>
+					Discover electronics, fashion, travel essentials, and more — curated
+					for everyday living.
+				</p>
+				<div class="hero-buttons">
+					<a href="#shop-categories" class="btn primary">Shop Now</a>
+					<a href="#shop-categories" class="btn secondary"
+						>Explore Categories</a
+					>
+				</div>
+			</div>
+		</div>
+
+		<section class="categories-section" id="shop-categories">
+			<h2>Shop by Categories</h2>
+			<p class="section-subtitle">Browse products from popular categories</p>
+
+			<div class="section-divider"></div>
+
+			<div class="category-grid">
+				<a href="product-fashion.html" class="category-card">
+					<img src="./assets/fashion-card.png" alt="Fashion" />
+					<span>Fashion</span>
+				</a>
+				<a href="product-electronics.html" class="category-card">
+					<img src="./assets/elec-card.png" alt="Electronics" />
+					<span>Electronics</span>
+				</a>
+				<a href="product-travel.html" class="category-card">
+					<img src="./assets/travel-card.png" alt="Travel" />
+					<span>Travel</span>
+				</a>
+			</div>
+		</section>
+	</body>
+</html>
