@@ -38,9 +38,12 @@ The homepage contains:
 
 <img width="1920" height="948" alt="image" src="https://github.com/user-attachments/assets/9b6d1717-22c0-45de-88f9-1ac35c8a18f9" />
 
+
 ### Mega Categories Menu
 Interactive mega category dropdown navigation showcasing multiple product sections and organized shopping categories.
+
 <img width="1920" height="915" alt="image" src="https://github.com/user-attachments/assets/7f2e3b60-206b-45f8-b00c-d7e4e45333c8" />
+
 
 ## Fashion Collection
 Contains fashion-related products including:
@@ -59,6 +62,9 @@ Contains electronics products including:
 - Smart Watches
 - Tablets
 - Speakers
+
+<img width="1920" height="946" alt="image" src="https://github.com/user-attachments/assets/65d809fc-6587-4acb-8d13-aa425f69537d" />
+
 
 ## Travel Collection
 Contains travel-related products including:
